@@ -1,19 +1,55 @@
 # BudgetMaster: Personal Budgeting App
 
-BudgetMaster is a comprehensive personal budgeting app developed to assist individuals in effectively managing their finances. Designed using Java and built with Android Studio, this intuitive mobile application enables users to track their income, expenses, and savings goals effortlessly.
+A comprehensive personal budgeting app designed to help users manage their income, expenses, and savings goals effectively. Built using Java in Android Studio, this app empowers users to take control of their finances with a user-friendly interface and data visualization tools.
 
-Key Features:
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Code Structure](#code-structure)
+- [Contributing](#contributing)
 
-1. **Income Tracking**: Record and monitor your various sources of income, including salaries, freelance work, and investments. The app provides a clear overview of your total income, helping you stay aware of your financial inflows.
+## Features
+- **Income Tracking**: Monitor and categorize income sources.
+- **Expense Management**: Set limits and track spending categories.
+- **Savings Goals**: Set and track goals visually.
+- **Data Visualization**: View trends and spending insights.
 
-2. **Expense Management**: Easily track and categorize your expenses, ensuring you have a clear understanding of where your money is being spent. The app allows you to set spending limits, view expense trends, and make informed financial decisions.
+## Tech Stack
+- **Backend**: Java
+- **Frontend**: XML (Android UI)
+- **Database**: SQLite
 
-3. **Savings Goals**: Set savings goals and track your progress over time. BudgetMaster provides visual representations of your savings journey, motivating you to achieve your financial objectives.
+## Installation
 
-4. **Budgeting Tools**: Create personalized budgets for different categories (e.g., groceries, transportation, entertainment) to keep your spending in check. The app provides real-time updates on your budget progress, helping you make smarter financial choices.
+### Clone the Repository
+```bash
+git clone https://github.com/harshagnihotri10/BudgetMaster.git
+```
 
-5. **Data Visualization**: Utilize interactive charts and graphs to visualize your financial data. Gain insights into spending patterns, identify areas where you can save money, and make informed financial decisions.
+### Build the project in Android Studio
 
-BudgetMaster aims to empower individuals with the tools and insights needed to achieve their financial goals. Whether you're looking to save for a specific purchase, pay off debts, or improve your overall financial well-being, this app provides a user-friendly interface and robust functionality to support your journey towards financial success.
+1. Install necessary dependencies.
+2. Build and run the app on an emulator or Android device.
 
-Feel free to explore the repository, contribute to its development, and adapt the app to suit your personal preferences or add new features. BudgetMaster is here to help you take control of your finances and make sound financial decisions.
+## Usage
+
+1. Register as a user and log in.
+2. Input income and categorize expenses.
+3. Set savings goals and track your progress.
+
+## Code Structure
+```
+/app
+/gradle/wrapper
+README.md
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle
+```
+
+## Contributing
+Contributions are welcome! Please follow the code of conduct and submit pull requests.
