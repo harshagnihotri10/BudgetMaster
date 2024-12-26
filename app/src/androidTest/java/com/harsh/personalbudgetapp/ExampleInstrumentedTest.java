@@ -1,4 +1,4 @@
-package com.akshit.personalbudgetapp;
+package com.harsh.personalbudgetapp;
 
 import android.content.Context;
 
